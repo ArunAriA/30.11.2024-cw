@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
-    cout << "ff";
-    cout << "s";
+	int a = 3;
+	int b = 5;
+	cout << &a << ' ' << &b << endl;
+
+	int* ptr = nullptr;
+
 }
